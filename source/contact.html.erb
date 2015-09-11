@@ -4,257 +4,280 @@
     <br/><br/>
 
     <div class="row">
-
-
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/anne-68276cd7db689589d4fc0275cebeb21c.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>Knowledge &amp; Information Manager pendant 10 ans, <strong>Anne</strong>
-est retournée à l&#39;université pour suivre un master en ICT.
-Fin 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
-Ambassadrice des <%= link_to 'Rails Girls', "http://railsgirls.com/brussels" %>,
-elle aime aider les nouveaux venus à surmonter leurs craintes et voir
-l&#39;étincelle briller dans leurs yeux quand la magie du code se dévoile!</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%= link_to class: 'fa fa-github-alt', "https://github.com/OObatwomanOO" %>
-                  </li>
-                  <li>
-                    <%= link_to class: "fa fa-twitter", "https://twitter.com/DianeLanterman" %>
-                  </li>
-              </div>
-            </div>
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/anne-68276cd7db689589d4fc0275cebeb21c.jpg", class: "img-rounded" %>
           </div>
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/xavier-047a1a09074c22fcbf8b6d28fc118601.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>Passionné de programmation depuis son plus jeune âge, <strong>Xavier</strong> développe
-des applications en Ruby depuis plus de 10 ans. Ainsi que des applications
-mobiles pour iOS et Android. Il dispose également d&#39;une solide expérience
-de Coach au sein d&#39;équipes de développement. Et est un redoutable Code Reviewer!</p>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>Knowledge &amp; Information Manager pendant 10 ans, <strong>Anne</strong> est retournée à l&#39;université pour suivre un master en ICT. Fin 2014, elle lance (et depuis, conduit) Le Wagon Brussels.
+              Ambassadrice des <%= link_to 'Rails Girls', "http://railsgirls.com/brussels" %>, elle aime aider les nouveaux venus à surmonter leurs craintes et voir l&#39;étincelle briller dans leurs yeux quand la magie du code se dévoile!</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+              <% link_to "https://github.com/OObatwomanOO" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+              <% link_to "https://twitter.com/DianeLanterman" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/xavier-047a1a09074c22fcbf8b6d28fc118601.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>Passionné de programmation depuis son plus jeune âge, <strong>Xavier</strong> développe des applications en Ruby depuis plus de 10 ans. Ainsi que des applications mobiles pour iOS et Android. Il dispose également d&#39;une solide expérience de Coach au sein d&#39;équipes de développement. Et est un redoutable Code Reviewer!</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+                <%link_to "https://github.com/xavier" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/xavierdefrang" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://linkedin.com/in/xavierdefrang" do %>
+                <i class='fa fa-linkedin'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "http://defrang.com/" do %>
+                <i class='fa fa-link'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/xavier" %>
+    <div class="clearfix visible-md-block visible-lg-block"></div>
+
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/simon_schoeters-73c3987848e7099cfcdb1938a837e13f.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>Après avoir découvert <%= link_to 'The Pickaxe', "https://pragprog.com/book/ruby/programming-ruby" %>
+              et testé Rails en codant son propre blog, <strong>Simon</strong> démissionne de son emploi d&#39;IT Analyst et se retrouve engagé comme Développeur Ruby. Il n&#39;a plus regardé en arrière depuis. Aujourd&#39;hui CTO de la plateforme de crowdfunding <%= link_to 'MyMicroInvest', "https://www.mymicroinvest.com" %>, il travaille encore comme freelance, considérant qu&#39;il s&#39;agit de la meilleure façon pour un développeur de continuer à s&#39;améliorer.</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+                <%link_to "https://github.com/cimm" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/cimm" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://linkedin.com/in/schoeters" do %>
+                <i class='fa fa-linkedin'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "http://defrang.com/" do %>
+                <i class='fa fa-link'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/lien-5b2794e97d9dc7b18912a997487f8a95.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p><strong>Lien</strong> a travaillé comme Team Lead Developer chez Engagor avant de se lancer comme freelance. Elle adore participer à des hackathons, <%= link_to 'Startup Weekends', "http://startupweekend.org/" %>
+              et a même pris place à bord d&#39;un <%= link_to 'StartupBus', "http://startupbus.com/" %>! Elle blogue à propos des startups lancées par des Belges sur <%= link_to 'LienStartups', "http://lienstartups.be" %>.</p>
+            </div>
+            <ul class="list-inline link-list">
+               <li>
+                <%link_to "https://github.com/lienvdsteen" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/lienvdsteen" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "http://lienstartups.be/" do %>
+                <i class='fa fa-link'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="clearfix visible-md-block visible-lg-block"></div>
+
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src:"http://d9sch4zul5dl8.cloudfront.net/assets/teachers/teddy-335b2502a6f896d2feea92c9ff84fae3.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>Passionné par le code, l’informatique et les jeux interactifs, <strong>Teddy</strong> est Développeur Front-End freelance et enseigne le JavaScript à l’<%= link_to 'ESIAJ', "http://www.infographie-sup.be/" %>. Formé successivement au Graphic Design, Web Design puis à l&#39;Animation, il passe beaucoup de temps à dessiner des logos, interfaces et bidouiller du code en soirée (HTML, CSS, JavaScript).</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+                <%link_to "https://github.com/teddy-k" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/teddytdk" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://linkedin.com/in/xavierdefrang" do %>
+                <i class='fa fa-linkedin'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "http://www.teddyk.be/" do %>
+                <i class='fa fa-link'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/martin-55da4ce9a453d0ca767c8b1b83a301ce.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>Après plusieurs années à former des développeurs, <strong>Martin</strong> est devenu Software Engineer, Team Leader et Coach Agile. Co-fondateur de <%= link_to 'PullReview', "https://www.pullreview.com" %>,
+              une solution SaaS pour faire des reviews automatiques de code Ruby, il a ensuite endossé le rôle de Lead Technical Coach au Wagon Brussels. Il a co-animé plusieurs sessions de Rails Girls Brussels et donné des
+              conférences à <%= link_to 'Paris.rb', "http://www.meetup.com/parisrb/" %>.</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+                <%link_to "https://github.com/vanakenm" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/martinvanaken" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://linkedin.com/in/martinvanaken" do %>
+                <i class='fa fa-linkedin'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "http://about.me/vanakenm" do %>
+                <i class='fa fa-link'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <div class="clearfix visible-md-block visible-lg-block"></div>
+
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/loucas-c3e1ecc0fe12ced25979faadd1c1f884.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>UX Designer chez <%= link_to 'Central', "http://centraldesign.be/boost/" %>, <strong>Loucas</strong>
+              considère son travail avant tout comme un processus de création construit et réfléchi, qu&#39;il enseigne à nos étudiants durant leur Design Sprint day: définir le problème, identifier les utilisateurs et leurs besoins, ébaucher de possibles solutions à l&#39;aide de prototypes, les tester, les ajuster et les tester encore, jusqu&#39;à dépasser les attentes initiales. Outre son intérêt pour le design, Loucas est aussi un grimpeur, un cycliste et un apprenti-boulanger à ses heures.</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+                <%link_to "https://github.com/loucaspapa" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/loucaspapa" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://linkedin.com/in/loucaspapa" do %>
+                <i class='fa fa-linkedin'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "http://loucaspapa.org" do %>
+                <i class='fa fa-link'></i>
+              <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 ">
+        <div class="row teacher">
+          <div class="col-xs-4">
+            <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/olivier_colot-b88adb1e9eecbb398b67eabd1aebde87.jpg", class: "img-rounded" %>
+          </div>
+          <div class="col-xs-8">
+            <div class="text-justify">
+              <p>Ingénieur physicien, ancien consultant en stratégie, <strong>Olivier</strong> a fondé des startups web (devenant au passage développeur full-stack Rails/Angular), 2 festivals majeurs de musique électronique et une entreprise de marketing (revendue depuis). Aujourd&#39;hui <%= link_to 'Lean Startup Coach', "http://www.colot.eu/" %> &amp; <%= link_to 'Entrepreneur', "https://www.ftrsnd.com/" %>, il aime créer et accompagner des projets innovants mêlant l&#39;humain et la technologie. Il est aussi artiste et producteur de musique électronique/jazz, officiant sous le nom de <%= link_to 'Blackcolors', "https://www.ftrsnd.com/blackcolors#/tracks" %>.</p>
+            </div>
+            <ul class="list-inline link-list">
+              <li>
+                <%link_to "https://github.com/ocolot" do %>
+                <i class='fa fa-github-alt'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://twitter.com/ocolot" do %>
+                <i class='fa fa-twitter'></i>
+              <% end %>
+              </li>
+              <li>
+                <%link_to "https://linkedin.com/in/oliviercolot" do %>
+                <i class='fa fa-linkedin'></i>
+                  <% end %>
                   </li>
                   <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/xavierdefrang" %>
+                    <%link_to "http://www.colot.eu/" do %>
+                    <i class='fa fa-link'></i>
+                  <% end %>
                   </li>
-                  <li>
-                    <%link_to class: "fa fa-linkedin", "https://linkedin.com/in/xavierdefrang" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://defrang.com/" %>
-                  </li>
+                </ul>
               </div>
             </div>
           </div>
 
         <div class="clearfix visible-md-block visible-lg-block"></div>
-
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/simon_schoeters-73c3987848e7099cfcdb1938a837e13f.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>Après avoir découvert <%= link_to 'The Pickaxe', "https://pragprog.com/book/ruby/programming-ruby" %>
-et testé Rails en codant son propre blog, <strong>Simon</strong> démissionne de
-son emploi d&#39;IT Analyst et se retrouve engagé comme Développeur Ruby.
-Il n&#39;a plus regardé en arrière depuis. Aujourd&#39;hui CTO de
-la plateforme de crowdfunding <%= link_to 'MyMicroInvest', "https://www.mymicroinvest.com" %>,
-il travaille encore comme freelance, considérant qu&#39;il s&#39;agit de la meilleure
-façon pour un développeur de continuer à s&#39;améliorer.</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/cimm" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/cimm" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-linkedin", "https://linkedin.com/in/schoeters" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://defrang.com/" %>
-                  </li>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/lien-5b2794e97d9dc7b18912a997487f8a95.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p><strong>Lien</strong> a travaillé comme Team Lead Developer chez Engagor avant de se lancer comme freelance.
-Elle adore participer à des hackathons, <%= link_to 'Startup Weekends', "http://startupweekend.org/" %>
-et a même pris place à bord d&#39;un <%= link_to 'StartupBus', "http://startupbus.com/" %>!
-Elle blogue à propos des startups lancées par des Belges sur <%= link_to 'LienStartups', "http://lienstartups.be" %>.</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                   <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/lienvdsteen" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/lienvdsteen" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://lienstartups.be/" %>
-                  </li>
-              </div>
-            </div>
-          </div>
-
-        <div class="clearfix visible-md-block visible-lg-block"></div>
-
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src:"http://d9sch4zul5dl8.cloudfront.net/assets/teachers/teddy-335b2502a6f896d2feea92c9ff84fae3.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>Passionné par le code, l’informatique et les jeux interactifs, <strong>Teddy</strong>
-est Développeur Front-End freelance et enseigne le JavaScript à l’<%= link_to 'ESIAJ', "http://www.infographie-sup.be/" %>.
-Formé successivement au Graphic Design, Web Design puis à l&#39;Animation,
-il passe beaucoup de temps à dessiner des logos, interfaces
-et bidouiller du code en soirée (HTML, CSS, JavaScript).</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/teddy-k" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/teddytdk" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-linkedin", "https://linkedin.com/in/xavierdefrang" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://www.teddyk.be/" %>
-                  </li>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/martin-55da4ce9a453d0ca767c8b1b83a301ce.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>Après plusieurs années à former des développeurs,
-<strong>Martin</strong> est devenu Software Engineer, Team Leader et Coach Agile.
-Co-fondateur de <%= link_to 'PullReview', "https://www.pullreview.com" %>,
-une solution SaaS pour faire des reviews automatiques de code Ruby, il
-a ensuite endossé le rôle de Lead Technical Coach au Wagon Brussels.
-Il a co-animé plusieurs sessions de Rails Girls Brussels et donné des
-conférences à <%= link_to 'Paris.rb', "http://www.meetup.com/parisrb/" %>.</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/vanakenm" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/martinvanaken" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-linkedin", "https://linkedin.com/in/martinvanaken" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://about.me/vanakenm" %>
-                  </li>
-              </div>
-            </div>
-          </div>
-
-        <div class="clearfix visible-md-block visible-lg-block"></div>
-
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/loucas-c3e1ecc0fe12ced25979faadd1c1f884.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>UX Designer chez <%= link_to 'Central', "http://centraldesign.be/boost/" %>, <strong>Loucas</strong>
-considère son travail avant tout comme un processus de création construit et réfléchi,
-qu&#39;il enseigne à nos étudiants durant leur Design Sprint day: définir le problème,
-identifier les utilisateurs et leurs besoins, ébaucher de possibles solutions à l&#39;aide de prototypes,
-les tester, les ajuster et les tester encore, jusqu&#39;à dépasser les attentes initiales.
-Outre son intérêt pour le design, Loucas est aussi un grimpeur, un cycliste et un apprenti-boulanger à ses heures.</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/loucaspapa" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/loucaspapa" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-linkedin", "https://linkedin.com/in/loucaspapa" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://loucaspapa.org" %>
-                  </li>
-                </div>
-            </div>
-          </div>
-          <div class="col-sm-6 ">
-            <div class="row teacher">
-              <div class="col-xs-4">
-                <%= image_tag src: "http://d9sch4zul5dl8.cloudfront.net/assets/teachers/olivier_colot-b88adb1e9eecbb398b67eabd1aebde87.jpg", class: "img-rounded" %>
-              </div>
-              <div class="col-xs-8">
-                <div class="text-justify">
-                  <p>Ingénieur physicien, ancien consultant en stratégie, <strong>Olivier</strong> a fondé
-des startups web (devenant au passage développeur full-stack Rails/Angular),
-2 festivals majeurs de musique électronique et une entreprise de marketing (revendue depuis).
-Aujourd&#39;hui <%= link_to 'Lean Startup Coach', "http://www.colot.eu/" %> &amp; <%= link_to 'Entrepreneur', "https://www.ftrsnd.com/" %>,
-il aime créer et accompagner des projets innovants mêlant l&#39;humain et la technologie.
-Il est aussi artiste et producteur de musique électronique/jazz, officiant
-sous le nom de <%= link_to 'Blackcolors', "https://www.ftrsnd.com/blackcolors#/tracks" %>.</p>
-
-                </div>
-                <ul class="list-inline link-list">
-                  <li>
-                    <%link_to class: "fa fa-github-alt", "https://github.com/ocolot" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-twitter", "https://twitter.com/ocolot" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-linkedin", "https://linkedin.com/in/oliviercolot" %>
-                  </li>
-                  <li>
-                    <%link_to class: "fa fa-link", "http://www.colot.eu/" %>
-                  </li>
-                </div>
-            </div>
-          </div>
-
-        <div class="clearfix visible-md-block visible-lg-block"></div>
-
     </div>
   </div>
 </div>
